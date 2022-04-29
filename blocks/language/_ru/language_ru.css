@@ -1,0 +1,20 @@
+.language_ru {
+    color: white;
+    font-size: 24px;
+    line-height: 117%;
+    margin-right: 18px;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.language_ru:hover {
+    opacity: 0.4;
+    transition: opacity 1s linear;
+}
+
+@media screen and (max-width:767px) {
+    .language_ru {
+        font-size: 18px;
+        line-height: 117%;
+    }
+}

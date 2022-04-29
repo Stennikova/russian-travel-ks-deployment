@@ -1,0 +1,5 @@
+.place__wrap {
+    grid-area: place__wrap;
+    display: flex;
+    flex-direction: column;
+}
