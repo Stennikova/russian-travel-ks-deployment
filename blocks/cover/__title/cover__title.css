@@ -4,16 +4,14 @@
     line-height: 106%;
     text-align: center;
     margin: 0;
-    margin-top: 245px;
     margin-bottom: 32px;
-    margin-left: 312px;
     max-width: 560px;
     z-index: 1;
     position: relative;
     font-weight: 900;
 }
 
-@media screen and (max-width:1279px) {
+/* @media screen and (max-width:1279px) 
     .cover__title {
         margin-top: 195px;
         margin-left: 232px;
@@ -26,11 +24,11 @@
         margin-left: 104px;
     }
 }
-
+ */
 @media screen and (max-width:767px) {
     .cover__title {
-        margin: 33px auto 16px auto;
         font-size: 32px;
         max-width: 90%;
+        margin-bottom: 16px;
     }
 }

@@ -1,4 +1,4 @@
-.language_en {
+.header__language {
     color: white;
     text-decoration: none;
     font-size: 24px;
@@ -6,13 +6,13 @@
     opacity: 1;
 }
 
-.language_en:hover {
-    opacity: 0.4;
+.header__language:hover {
+    opacity: 0.7;
     transition: opacity 1s linear;
 }
 
 @media screen and (max-width:767px) {
-    .language_en {
+    .header__language {
         font-size: 18px;
         line-height: 117%;
     }

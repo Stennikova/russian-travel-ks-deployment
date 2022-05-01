@@ -5,13 +5,13 @@
     line-height: 163%;
 }
 
-.place__paragraph:first-child {
-    margin-bottom: 26px;
+.place__paragraph:nth-child(2) {
+    margin-top: 26px;
 }
 
 @media screen and (max-width:1279px) {
-    .place__paragraph:first-child {
-        margin-bottom: 27px;
+    .place__paragraph:nth-child(2) {
+        margin-top: 27px;
     }
 }
 
@@ -19,11 +19,10 @@
 
     .place__paragraph {
         font-size: 16px;
-        line-height: 163%;
     }
 
-    .place__paragraph:first-child {
-        margin-bottom: 25px;
+    .place__paragraph:nth-child(2) {
+        margin-top: 25px;
     }
 }
 

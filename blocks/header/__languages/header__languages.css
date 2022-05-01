@@ -1,9 +1,9 @@
-.language {
+.header__languages {
     margin-top: 46px;
 }
 
 @media screen and (max-width: 767px) {
-    .language {
+    .header__languages {
         margin-top: 30px;
     }
 }

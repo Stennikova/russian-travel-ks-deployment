@@ -6,3 +6,5 @@
 * Адаптивная верстка
 * Flex верстка
 * Grid
+## Сcылка на собранную страницу:
+https://stennikova.github.io/russian-travel-ks-deployment/index.html
