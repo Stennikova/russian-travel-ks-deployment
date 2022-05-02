@@ -3,14 +3,15 @@
     color: white;
     font-size: 18px;
     line-height: 163%;
-}
-
-.place__paragraph:nth-child(2) {
     margin-top: 26px;
 }
 
+.place__paragraph:nth-child(1) {
+    margin-top: 0;
+}
+
 @media screen and (max-width:1279px) {
-    .place__paragraph:nth-child(2) {
+    .place__paragraph {
         margin-top: 27px;
     }
 }
@@ -19,9 +20,6 @@
 
     .place__paragraph {
         font-size: 16px;
-    }
-
-    .place__paragraph:nth-child(2) {
         margin-top: 25px;
     }
 }
